@@ -1,0 +1,96 @@
+body{
+    background-color: #448AFF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    position: static;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    padding: 0;
+    float: left;
+    text-align: center;    
+}
+.user_login{
+    float:left;
+    height:220px;
+    width:21.5%;
+    border-radius:5px;
+    background: #33A2FF; 
+}
+.user_login hr{
+    width:250px;
+    color:#2E4372;
+}
+.user_login td{
+    padding:3px;
+    padding-left:8px;
+    font-size:15px;
+    font-family:verdana;
+}
+.user_login .caption{
+    font-size:20px;
+    color:#2E4372;
+    font-weight:bold;
+}
+.user_login .button{
+    background: #33A2FF;
+    font-size:18px;
+    color:#2E4372;
+    font-weight: bold;
+    cursor:pointer;   
+}
+a:link {
+    text-decoration: none;
+}
+.image{
+    margin-left:10px;
+    width:76.5%;
+    height:350px;
+    float:right;
+    border-radius:10px;
+    position:relative;
+}
+.left_panel{
+    margin-top: 15px;
+    float:left;
+    height:510px;
+    width:21.5%;
+    border-radius:5px;
+    background: #33A2FF; 
+}
+.left_panel p,h3{
+    padding:6px;
+}
+.left_panel li{
+    padding:5px;
+}
+.right_panel{
+    margin-left:10px;
+    margin-top:15px;
+    background: #33A2FF; 
+    width:76.5%;
+    height:382px;
+    float:right;
+    border-radius:5px;
+}
+.right_panel li{
+    padding:8px;
+}
+.footer{
+    margin-top:10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    position: static;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    padding: 0;
+    float: left;
+    text-align: center;     
+}
