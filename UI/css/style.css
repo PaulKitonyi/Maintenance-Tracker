@@ -121,3 +121,21 @@ input[type=text], input[type=password] {
 .container {
     padding: 50px;
 }
+.left_panel_dashboard{
+    float:left;
+    height:500px;
+    width:21.5%;
+    border-radius:5px;
+    background: #33A2FF; 
+}
+.left_panel_dashboard img{
+        border-radius: 50%;
+        margin-top: 10px;
+        margin-left: 30px;
+}
+.left_panel_dashboard button{
+    width: 80%;
+    margin-left: 20px;
+    background-color: #666;
+    color: white;
+}
