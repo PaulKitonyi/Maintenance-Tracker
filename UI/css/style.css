@@ -17,7 +17,7 @@ body{
 }
 .user_login{
     float:left;
-    height:220px;
+    height:320px;
     width:21.5%;
     border-radius:5px;
     background: #33A2FF; 
@@ -37,14 +37,17 @@ body{
     color:#2E4372;
     font-weight:bold;
 }
-.user_login .button{
-    background: #33A2FF;
-    font-size:18px;
-    color:#2E4372;
-    font-weight: bold;
-    cursor:pointer;   
+.button{
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
 }
-a:link {
+a:link{
     text-decoration: none;
 }
 .image{
@@ -58,7 +61,7 @@ a:link {
 .left_panel{
     margin-top: 15px;
     float:left;
-    height:510px;
+    height:420px;
     width:21.5%;
     border-radius:5px;
     background: #33A2FF; 
@@ -93,4 +96,12 @@ a:link {
     padding: 0;
     float: left;
     text-align: center;     
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
 }
