@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Maintenance Tracker</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Welcome to Maintenance Tracker</h1>
+    </div>
+    <div class="left_panel_dashboard">
+        <img src="images/avatar.png" alt="Avatar" style="width:200px">
+        <button type="submit" class="button">Make Request</button>
+        <button type="submit" class="button">View Requests</button>
+        <button type="submit" class="button">Edit Account</button>
+    </div>
+    <div class='make_request'>
+        <form>
+            <div class="container">
+              <h1>Make Request</h1>
+              <p>Please fill in this form to make a Request.</p>
+              <hr>
+              <label><b>Request Name</b></label>
+              <input type="text" placeholder="Enter request" required>
+
+              <label>Request Type</label>
+              <select>
+                  <option>Select</option>
+                  <option>Repair</option>
+                  <option>Maintenance</option>
+              </select>
+
+              <label>Department</label>
+              <select>
+                  <option>Select</option>
+                  <option>Human Resource</option>
+                  <option>Accounts</option>
+                  <option>IT</option>
+              </select>
+              
+              <label><b>Description</b></label>
+              <textarea rows="5" cols="50" required></textarea>
+              <div>
+                  <button type="submit" class="button">Request</button>
+              </div>
+            </div>
+          </form>
+    </div>
+    <div class="footer">
+        <h3>Copyright &copy; 2018</h3>
+    </div>
+</body>
+</html>
