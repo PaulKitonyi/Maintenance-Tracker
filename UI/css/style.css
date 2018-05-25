@@ -170,3 +170,10 @@ td, th {
 tr:nth-child(even) {
     background-color: #dddddd;
 }
+.admin_login{
+    width:500px;
+    background: #33A2FF;
+    margin:auto;
+    padding: 50px;
+    height: 500px;
+}
