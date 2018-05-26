@@ -177,3 +177,8 @@ tr:nth-child(even) {
     padding: 50px;
     height: 500px;
 }
+.container img{
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 90px;
+}
