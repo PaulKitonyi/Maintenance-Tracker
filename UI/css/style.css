@@ -210,18 +210,18 @@ form#popup {
 }
 form#user_login{
     max-width:170px;
-    padding:10px 50px;
+    padding:1px 50px;
     border:2px #33A2FF;
     border-radius:10px;
     font-family:raleway;
     background-color:#33A2FF;
-    height: 305px;
+    height: 300px;
 }
 form#user_login button{
     background-color: #4CAF50;
     color: white;
     padding: 14px 20px;
-    margin: 8px 0;
+    margin: -16px 4px 4px;
     border: none;
     cursor: pointer;
     width: 100%;
