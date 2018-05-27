@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Maintenance Tracker</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/main.js"></script>
+</head>
+<body>
+    <div class="header">
+        <h1>Welcome to Maintenance Tracker</h1>
+    </div>
+    <div class="left_panel_dashboard">
+        <img src="../images/avatar.png" alt="Avatar" style="width:200px">
+        <button type="submit" class="button">View Requests</button>
+        <button type="submit" class="button">View Approved</button>
+        <button type="submit" class="button">View Resolved</button>
+        <button type="submit" class="button">View Rejected</button>
+        <button type="submit" class="button">Edit Profile</button>
+        <button type="submit" class="button">Logout</button>
+    </div>
+    <div id="give_feedback">
+    <div id="popupform">
+        <form id="popup">
+            <img id="close" src="../images/close.png" onclick ="div_hide()">
+            <div class="container">
+                <h1>Give Feedback</h1>
+                <p>Please fill in this form to give a Feedback.</p>
+                <hr>
+                <label><b>Description</b></label>
+                <textarea rows="5" cols="50" required></textarea>
+                <div>
+                    <button type="submit" class="button">Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    </div>
+    <div>
+        <table align="right" style="overflow:hidden;">
+            <tr>
+                <th>#</th>
+                <th>Requester</th>
+                <th>Department</th>
+                <th>Device Type</th>
+                <th>Request Type</th>
+                <th>Response</th>
+                <th>Status</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Paul</td>
+                <td>Accounts</td>
+                <td>Laptop</td>
+                <td>Maintenance</td>
+                <td>Approved</td>
+                <td>Resolved</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Peter</td>
+                <td>Accounts</td>
+                <td>Printer</td>
+                <td>Maintenance</td>
+                <td>Approved</td>
+                <td>Resolved</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Jane</td>
+                <td>Public Relations</td>
+                <td>landline</td>
+                <td>Repair</td>
+                <td>Approved</td>
+                <td>Resolved</td>
+            </tr>
+        </table>
+    </div>
+    <div class="footer">
+        <h3>Copyright &copy; 2018</h3>
+    </div>   
+</body>
+</html>
