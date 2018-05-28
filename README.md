@@ -49,16 +49,16 @@ You can view the UI templates on [Github Pages](https://paulkitonyi.github.io/Ma
 # Pivotal Tracker Project
 You can view the pivotal tracker stories [here](https://www.pivotaltracker.com/n/projects/2173306)
 
-# Home page with login form
-# Sign up Page
-# User make request
-# User view requests
-# User Edit account
-# Admin login
-# Admin view requests
-# Admin Edit account
-# Admin view approved
-# Admin view resolved
-# Admin view rejected
-# Contribution
+## Home page with login form
+## Sign up Page
+## User make request
+## User view requests
+## User Edit account
+## Admin login
+## Admin view requests
+## Admin Edit account
+## Admin view approved
+## Admin view resolved
+## Admin view rejected
+## Contribution
 
