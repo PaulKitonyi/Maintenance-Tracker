@@ -35,14 +35,14 @@ operations or repairs department regarding repair or maintenance requests and mo
 status of their requests.
 
 ## Required Features
-1. Users can create an account and log in.
-1. The users should be able to make maintenance or repairs request.
-1. An admin should be able to approve/reject a repair/maintenance request.
-1. The admin should be able to mark request as resolved once it is done.
-1. The admin should be able to view all maintenance/repairs requests on the application.
+1. Users can [create an account](#sign-up-page) and [log in](#home-page-with-login-form).
+1. The users should be able to [make maintenance or repairs request](#user-make-request).
+1. An admin should be able to [approve/reject a repair/maintenance request](#admin-view-requests).
+1. The admin should be able to [mark request as resolved](#admin-view-approved) once it is done.
+1. The admin should be able to [view all maintenance/repairs requests](#admin-view-requests) on the application.
 1. The admin should be able to filter requests.
-1. The user can view all his/her requests.
-1. The admin should be able to provide feedback to the users.
+1. The user can [view all his/her requests](#user-view-request).
+1. The admin should be able to [provide feedback to the users](#admin-view-approved).
 
 # UI Templates
 You can view the UI templates on [Github Pages](https://paulkitonyi.github.io/Maintenance-Tracker/)
