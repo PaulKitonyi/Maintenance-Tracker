@@ -8,23 +8,24 @@ The Andela Developer Challenge one
 ![GitHub contributors](https://img.shields.io/github/contributors/paulkitonyi/Maintenance-Tracker.svg)
 
 # Table of Contents
-* Introduction
-    * Project Overview
-    * Required Features
-* UI Template
-* Pivotal Tracker Project
-* Home page with login form
-* Sign up Page
-* User make request
-* User view requests
-* User Edit account
-* Admin login
-* Admin view requests
-* Admin Edit account
-* Admin view approved
-* Admin view resolved
-* Admin view rejected
-* Contribution
+* [Introduction](#introduction)
+    * [Project Overview](#project-overview)
+    * [Required Features](#required-features)
+* [UI Template](#ui-template)
+* [Pivotal Tracker Project](#pivotal-tracker-project)
+* [Home page with login form](#home-page-with-login-form)
+* [Sign up Page](#sign-up-page)
+* [User make request](#user-make-request)
+* [User view requests](#user-view-request)
+* [User Edit account](#user-edit-account)
+* [Admin login](#admin-login)
+* [Admin view requests](#admin-view-requests)
+* [Admin Edit account](#admin-edit-account)
+* [Admin view approved](#admin-view-approved)
+* [Admin view resolved](#admin-view-resolved)
+* [Admin view rejected](#admin-view-rejected)
+* [Installation and use](#installation-and-use)
+* [Contribution](#contribution)
 
 # Introduction
 
@@ -50,16 +51,58 @@ You can view the UI templates on [Github Pages](https://paulkitonyi.github.io/Ma
 You can view the pivotal tracker stories [here](https://www.pivotaltracker.com/n/projects/2173306)
 
 ## Home page with login form
-Users will provide their email and Password in-order to access the Application
+Users will provide their email and Password in-order to access the Application.
+![screenshot from 2018-05-28 23-59-32](https://user-images.githubusercontent.com/21083657/40629352-3d49e8d4-62d3-11e8-91ce-0ec8c8a4be90.png)
+
 ## Sign up Page
+New users can create their accounts using this form.
+![screenshot from 2018-05-29 00-02-51](https://user-images.githubusercontent.com/21083657/40629424-af2b625c-62d3-11e8-9faf-a8597661a356.png)
+
 ## User make request
+An authorised user can make a request using this form.
+![screenshot from 2018-05-29 00-09-13](https://user-images.githubusercontent.com/21083657/40629549-8f96492e-62d4-11e8-814e-e6cb3631cb3a.png)
+
 ## User view requests
+An authorised user can view all the requests made in the application.
+![screenshot from 2018-05-29 00-11-13](https://user-images.githubusercontent.com/21083657/40629587-e127e41e-62d4-11e8-9bc2-bf0e2110b3ca.png)
+
 ## User Edit account
+An authorised user can edit his/her account.
+![screenshot from 2018-05-29 00-13-19](https://user-images.githubusercontent.com/21083657/40629630-44b92970-62d5-11e8-9a9a-91dd851f4968.png)
+
 ## Admin login
+An authorised admin can login using this form.
+![screenshot from 2018-05-29 00-16-51](https://user-images.githubusercontent.com/21083657/40629686-c7c706c0-62d5-11e8-8829-41854cd56bce.png)
+
 ## Admin view requests
+An authorised admin can view all request made in this application.
+![screenshot from 2018-05-29 00-28-43](https://user-images.githubusercontent.com/21083657/40630316-641cee82-62da-11e8-9d45-6a7c945f713b.png)
+
 ## Admin Edit account
+An authorised admin can edit his/her account.
+![screenshot from 2018-05-29 00-29-45](https://user-images.githubusercontent.com/21083657/40629979-6d729c64-62d7-11e8-9fa1-8e6a9a06e070.png)
+
 ## Admin view approved
+An admin can view all the approved requests in the application.
+![screenshot from 2018-05-29 00-27-49](https://user-images.githubusercontent.com/21083657/40630262-e644a928-62d9-11e8-96a7-9dfe7cf38f31.png)
+
 ## Admin view resolved
+An admin can view all the resolved requests in the application.
+![screenshot from 2018-05-29 00-36-13](https://user-images.githubusercontent.com/21083657/40630100-5733312e-62d8-11e8-80a7-9a6703c1acde.png)
+
 ## Admin view rejected
+An admin can view all the rejected requests in the application.
+![screenshot from 2018-05-29 00-33-44](https://user-images.githubusercontent.com/21083657/40630070-1644d28a-62d8-11e8-9675-958a7b9ee80d.png)
+
+## Installation and use
+- To use this application,in your terminal type ```git clone https://github.com/PaulKitonyi/Maintenance-Tracker.git```and press Enter.
+- Navigate to the Maintenance tracker application and then cd to UI and click the index.html file to view it on your browser.
+
 ## Contribution
+If you want to contribute to this project:
+ - Fork it!
+ - Create your feature branch: git checkout -b my-new-feature
+ - Commit your changes: git commit -m 'Add some feature'
+ - Push to the branch: git push origin my-new-feature
+ - Create a pull request.
 
