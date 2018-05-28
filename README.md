@@ -50,6 +50,7 @@ You can view the UI templates on [Github Pages](https://paulkitonyi.github.io/Ma
 You can view the pivotal tracker stories [here](https://www.pivotaltracker.com/n/projects/2173306)
 
 ## Home page with login form
+Users will provide their email and Password in-order to access the Application
 ## Sign up Page
 ## User make request
 ## User view requests
