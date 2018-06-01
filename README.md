@@ -7,7 +7,7 @@ The Andela Developer Challenge one
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/paulkitonyi/Maintenance-Tracker.svg)
 [![codecov](https://codecov.io/gh/paulkitonyi/Maintenance-Tracker/branch/develop/graph/badge.svg)](https://codecov.io/gh/paulkitonyi/Maintenance-Tracker)
 ![GitHub contributors](https://img.shields.io/github/contributors/paulkitonyi/Maintenance-Tracker.svg)
-[![Build Status](https://travis-ci.org/paulkitonyi/Maintenance-Tracker.svg?branch=develop)](https://travis-ci.org/paulkitonyi/Maintenance-Tracker)
+[![Build Status](https://travis-ci.org/PaulKitonyi/Maintenance-Tracker.svg?branch=develop)](https://travis-ci.org/paulkitonyi/Maintenance-Tracker)
 
 
 # Table of Contents
