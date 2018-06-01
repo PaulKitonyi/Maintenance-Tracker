@@ -1,6 +1,5 @@
-from app import create_app
+from app import app
 import unittest
-import os
 import json
 
 class MaintenanceTrackerTestCase(unittest.TestCase):
@@ -8,18 +7,13 @@ class MaintenanceTrackerTestCase(unittest.TestCase):
 
     def setUp(self):
         """Define test variables and initialize app."""
-        self.app = create_app(config_name="testing")
-        self.client = self.app.test_client
-        self.request = {
-            "device_type": "Printer",
-            "request_type": "Repair",
-            "department": "Accounts",
-            "description": "Not working",
-            }
+        self.app = app
+        self.client = self.app.test_client()
+        self.request = {"device type" : "Laptops", "request type" : "repair", "department":"Accounts", "description":"display issuessassdssdfd"}
 
     def test_api_can_create_request(self):
         """Test POST request"""
-        res = self.client.post('/users/requests', data=self.request)
+        res = self.client.post('/users/requests', data=json.dumps(self.request), content_type='application/json')
         self.assertEqual(res.status_code, 201)
 
     def test_api_can_get_all_requests(self):
@@ -34,14 +28,16 @@ class MaintenanceTrackerTestCase(unittest.TestCase):
 
     def test_api_can_edit_request(self):
         """Test PUT request"""
-        res = self.client.put('/users/requests/1', data=self.request)
+        self.client.post('/users/requests', data=json.dumps(self.request), content_type='application/json')
+        res = self.client.put('/users/requests/1', data=json.dumps(self.request), content_type='application/json')
+        print(res.get_data())
         self.assertEqual(res.status_code, 200)
 
     def test_api_can_delete_request(self):
         """Test DELETE request"""
-        res = self.client.delete('/users/request/1')
+    
+        res = self.client.delete('/users/requests/1',content_type='application/json')
         self.assertEqual(res.status_code, 200)
-
 
 if __name__ == "__main__":
     unittest.main()
