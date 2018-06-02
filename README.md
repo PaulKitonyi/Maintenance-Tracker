@@ -6,7 +6,7 @@ The Andela Developer Challenge one
 ![GitHub top language](https://img.shields.io/github/languages/top/paulkitonyi/Maintenance-Tracker.svg)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/paulkitonyi/Maintenance-Tracker.svg)
 ![GitHub contributors](https://img.shields.io/github/contributors/paulkitonyi/Maintenance-Tracker.svg)
-[![Coverage Status](https://coveralls.io/repos/github/PaulKitonyi/Maintenance-Tracker/badge.svg?branch=develop)](https://coveralls.io/github/PaulKitonyi/Maintenance-Tracker?branch=develop)
+[![Coverage Status](https://coveralls.io/repos/github/PaulKitonyi/Maintenance-Tracker/badge.svg?branch=ft-create-endpoints-157994808)](https://coveralls.io/github/PaulKitonyi/Maintenance-Tracker?branch=ft-create-endpoints-157994808)
 
 
 # Table of Contents
