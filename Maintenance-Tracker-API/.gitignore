@@ -1,3 +1,8 @@
 venv
 .vscode/
 ./cache/
+tests/__pycache__/base_test.cpython-36.pyc
+tests/__pycache__/__init__.cpython-36.pyc
+tests/__pycache__/test_maintenance_tracker.cpython-36.pyc
+tests/__pycache__/test_user.cpython-36.pyc
+instance/__pycache__
