@@ -12,7 +12,7 @@ The Andela Developer Challenge one
 * [Introduction](#introduction)
     * [Project Overview](#project-overview)
     * [Required Features](#required-features)
-*[API Installation and setup]
+*[API Installation and setup](#api-installation-an-setup)
     *[Navigate to the Maintenance-Tracker-API folder]
     *[Create a virtual Environment]
     *[Activate a virtual Environment]
@@ -53,6 +53,10 @@ status of their requests.
 1. The admin should be able to filter requests.
 1. The user can [view all his/her requests](#user-view-request).
 1. The admin should be able to [provide feedback to the users](#admin-view-approved).
+
+# API Installation and Setup
+First clone the application by typing on your terminal 'git clone' then add the following url.
+```https://github.com/PaulKitonyi/Maintenance-Tracker.git```
 
 # UI Templates
 You can view the UI templates on [Github Pages](https://paulkitonyi.github.io/Maintenance-Tracker/)
