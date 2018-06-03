@@ -13,14 +13,14 @@ The Andela Developer Challenge one
     * [Project Overview](#project-overview)
     * [Required Features](#required-features)
 * [API Installation and setup](#api-installation-and-setup)
-    * [Navigate to the Maintenance-Tracker-API folder]
-    * [Create a virtual Environment]
-    * [Activate a virtual Environment]
-    * [Install Requirements]
-    * [Running the API]
-    * [Endpoints]
-    * [Testing]
-    * [Available Endpoints]
+    * [Navigate to the Maintenance-Tracker-API folder](#navigate-to-the-maintenance-tracker-api-folder)
+    * [Create a virtual Environment](#create-virtual-environment)
+    * [Activate a virtual Environment](#activate-a-virtual-environment)
+    * [Install Requirements](#install-requirements)
+    * [Running the API](#running-the-api)
+    * [Endpoints](#endpoints)
+    * [Testing](#testing)
+    * [Available Endpoints](#available-endpoints)
 * [UI Template](#ui-template)
 * [Pivotal Tracker Project](#pivotal-tracker-project)
 * [Home page with login form](#home-page-with-login-form)
@@ -59,6 +59,64 @@ First clone the application by typing on your terminal 'git clone' then add the 
 ```bash
 https://github.com/PaulKitonyi/Maintenance-Tracker.git
 ```
+# Navigate to the Maintenance-Tracker-API folder
+```bash
+cd Maintenance-Tracker/Maintenance-Tracker-API
+```
+# Create a virtual Environment
+On UNIX Based system you can type
+```bash
+virtualenv venv --python=python3
+```
+or on windows
+```bash
+python -m venv venv
+```
+
+# Activate the virtual Enviroment
+Before you begin you will need to activate the virtual environment we have created on the above step.
+On UNIX Based systems
+```bash
+source venv/bin/activate
+```
+On windows
+```bash
+venv\Scripts\activate
+```
+
+# Install Requirements
+On your terminal type
+```bash
+$ pip install -r requirements.txt
+```
+
+# Run the Application
+After the settingup the app, you will run it
+```bash
+$ python run.py
+```
+
+# Endpoints
+You can now access the available endpoints now from the following url on your local computer
+```bash
+http://localhost:5000/api/v1/
+```
+or online from heroku
+```bash
+https://maintenance-tracker-apiv1.herokuapp.com/api/v1/
+```
+
+# Testing
+After successfully installing the application, the endpoints can be tested by running
+```bash
+nosetests tests
+```
+or with coverage
+```bash
+nosetests --with-coverage --cover-package tests
+```
+
+# Available Endpoints
 
 # UI Templates
 You can view the UI templates on [Github Pages](https://paulkitonyi.github.io/Maintenance-Tracker/)
