@@ -4,7 +4,6 @@ import json
 
 class MaintenanceTrackerTestCase(unittest.TestCase):
     """This class represents the maintenance tracker test case"""
-
     def setUp(self):
         """Define test variables and initialize app."""
         self.app = app
