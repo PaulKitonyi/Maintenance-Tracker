@@ -117,6 +117,13 @@ nosetests --with-coverage --cover-package tests
 ```
 
 # Available Endpoints
+| Endpoint | Functionality |
+| --- | --- |
+| `GET /users/requests` | Fetch all the requests of a logged in user |
+| `GET /users/requests/<requestId>` | Fetch a request that belongs to a logged in user |
+| `POST /users/requests` | Create a request |
+| `PUT /users/requests/<requestId>` | Modify a request |
+
 
 # UI Templates
 You can view the UI templates on [Github Pages](https://paulkitonyi.github.io/Maintenance-Tracker/)
