@@ -123,7 +123,7 @@ nosetests --with-coverage --cover-package tests
 | `GET /users/requests/<requestId>` | Fetch a request that belongs to a logged in user |
 | `POST /users/requests` | Create a request |
 | `PUT /users/requests/<requestId>` | Modify a request |
-
+| `DELETE /users/requests/<requestId>` | Delete a request |
 
 # UI Templates
 You can view the UI templates on [Github Pages](https://paulkitonyi.github.io/Maintenance-Tracker/)
