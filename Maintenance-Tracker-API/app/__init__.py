@@ -5,7 +5,8 @@ from instance.config import app_config
 app = Flask(__name__, instance_relative_config=True)
     
     
-requests =[]       
+requests =[]
+users = []       
 
 @app.route('/api/v1/users/requests', methods=["GET"])
 def get_all_requests():
@@ -48,3 +49,34 @@ def delete_request(id):
         abort(404)
     requests.remove(delete_request[0])
     return jsonify({'requests':requests})
+
+# GET all Users
+@app.route('/api/v1/users')
+def get_users():
+    return jsonify({"users": users})
+
+#Register user
+@app.route('/api/v1/users', methods=['POST'])
+def register_user():
+    new_user = {
+        "id": len(users)+1,
+        "username": request.json.get("username", "username"),
+        "email": request.json.get('email'),
+        "password": request.json.get("password"),
+    }
+    # Confirm user entry has data
+    for key in new_user:
+        if new_user[key] == "":
+            return jsonify({"message": "All Fields Required"})
+
+    # Check if passwords match
+    if request.json.get("password") != request.json.get("confirm_password"):
+        return jsonify({"message": "Your Passwords Don't Match"}), 400
+    if len(users) == 0:
+        users.append(new_user)
+        return jsonify({"message": "Sign Up Successful"}), 201
+    for user in users:
+        if user["username"] != new_user["username"]:
+            users.append(new_user)
+            return jsonify({"message": "Sign Up Successful"}), 201
+        return jsonify({"message": "User already exists"}), 400
