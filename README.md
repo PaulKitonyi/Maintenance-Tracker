@@ -12,6 +12,15 @@ The Andela Developer Challenge one
 * [Introduction](#introduction)
     * [Project Overview](#project-overview)
     * [Required Features](#required-features)
+*[API Installation and setup]
+    *[Navigate to the Maintenance-Tracker-API folder]
+    *[Create a virtual Environment]
+    *[Activate a virtual Environment]
+    *[Install Requirements]
+    *[Running the API]
+    *[Endpoints]
+    *[Testing]
+    *[Available Endpoints]
 * [UI Template](#ui-template)
 * [Pivotal Tracker Project](#pivotal-tracker-project)
 * [Home page with login form](#home-page-with-login-form)
