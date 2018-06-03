@@ -7,16 +7,16 @@ app = Flask(__name__, instance_relative_config=True)
     
 requests =[]       
 
-@app.route('/users/requests', methods=["GET"])
+@app.route('/api/v1/users/requests', methods=["GET"])
 def get_all_requests():
     return jsonify({'request':requests})
 
-@app.route('/users/requests/<int:id>', methods=["GET"])
+@app.route('/api/v1/users/requests/<int:id>', methods=["GET"])
 def get_single_request(id):
     single_request = [request for request in requests if request['id'] == id]
     return jsonify({'request':single_request})
 
-@app.route('/users/requests',methods=["POST"])
+@app.route('/api/v1/users/requests',methods=["POST"])
 def create_request():
     request_add = {'id': len(requests)+1,
             'device type':request.json.get('device type'),
@@ -27,7 +27,7 @@ def create_request():
     requests.append(request_add)
     return jsonify({'Requests': requests}),201
 
-@app.route('/users/requests/<int:id>', methods=["PUT"])
+@app.route('/api/v1/users/requests/<int:id>', methods=["PUT"])
 def edit_request(id):
     request_edit = [req for req in requests if req["id"] == id]
     if len(request_edit) == 0:
@@ -40,7 +40,7 @@ def edit_request(id):
             }
     return jsonify({'requests':request_edit})
             
-@app.route('/users/requests/<int:id>', methods=["DELETE"])
+@app.route('/api/v1/users/requests/<int:id>', methods=["DELETE"])
 def delete_request(id):
     delete_request = [req for req in requests if req["id"] == id]
     print(len(delete_request))
